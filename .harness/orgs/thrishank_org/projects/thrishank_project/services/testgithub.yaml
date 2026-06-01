@@ -1,0 +1,5 @@
+service:
+  name: test-github
+  identifier: testgithub
+  orgIdentifier: thrishank_org
+  projectIdentifier: thrishank_project
