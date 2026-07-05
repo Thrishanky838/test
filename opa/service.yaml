@@ -1,0 +1,5 @@
+service:
+  name: opa-test-1
+  identifier: opatest1
+  orgIdentifier: default1
+  projectIdentifier: opa_testing
