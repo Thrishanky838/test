@@ -1,0 +1,5 @@
+service:
+  name: good_service
+  identifier: good_service
+  orgIdentifier: default1
+  projectIdentifier: opa_testing
