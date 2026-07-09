@@ -1,0 +1,5 @@
+service:
+  name: good_opa_service
+  identifier: good_opa_service
+  orgIdentifier: thrishank_org
+  projectIdentifier: thrishank_project
