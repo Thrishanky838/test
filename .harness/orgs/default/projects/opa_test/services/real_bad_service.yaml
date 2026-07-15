@@ -1,5 +1,5 @@
 service:
-  name: real_bad_service
+  name: bad_service
   identifier: real_bad_service
   orgIdentifier: default
   projectIdentifier: opa_test
