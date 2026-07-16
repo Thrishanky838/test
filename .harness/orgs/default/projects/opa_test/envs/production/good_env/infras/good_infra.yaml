@@ -1,0 +1,16 @@
+infrastructureDefinition:
+  name: good_infra
+  identifier: good_infra
+  orgIdentifier: default
+  projectIdentifier: opa_test
+  environmentRef: good_env
+  deploymentType: Ssh
+  type: Pdc
+  spec:
+    credentialsRef: garbageew
+    hostFilter:
+      type: All
+      spec: {}
+    hosts:
+      - eqwfewewf
+  allowSimultaneousDeployments: false
