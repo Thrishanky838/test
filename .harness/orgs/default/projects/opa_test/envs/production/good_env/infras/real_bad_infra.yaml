@@ -1,0 +1,16 @@
+infrastructureDefinition:
+  name: real_bad_infra
+  identifier: real_bad_infra
+  orgIdentifier: default
+  projectIdentifier: opa_test
+  environmentRef: good_env
+  deploymentType: Ssh
+  type: Pdc
+  spec:
+    credentialsRef: garbageew
+    hostFilter:
+      type: All
+      spec: {}
+    hosts:
+      - eqwfewewf
+  allowSimultaneousDeployments: false
