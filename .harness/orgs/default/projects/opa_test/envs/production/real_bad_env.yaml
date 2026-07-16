@@ -1,5 +1,5 @@
 environment:
-  name: real_bad_env
+  name: bad_env
   identifier: real_bad_env
   orgIdentifier: default
   projectIdentifier: opa_test
