@@ -1,0 +1,6 @@
+environment:
+  name: bad_env
+  identifier: bad_env
+  orgIdentifier: default
+  projectIdentifier: opa_test
+  type: Production
