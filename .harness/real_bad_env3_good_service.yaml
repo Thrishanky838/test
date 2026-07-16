@@ -1,0 +1,6 @@
+overrides:
+  variables:
+    - name: wdeqwewfeqw
+      type: String
+      value: qwdd
+      required: false
