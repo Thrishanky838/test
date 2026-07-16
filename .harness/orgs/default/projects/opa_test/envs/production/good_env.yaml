@@ -1,0 +1,6 @@
+environment:
+  name: good_env
+  identifier: good_env
+  orgIdentifier: default
+  projectIdentifier: opa_test
+  type: Production
