@@ -1,0 +1,5 @@
+service:
+  name: opa-repro
+  identifier: oparepro
+  orgIdentifier: default1
+  projectIdentifier: opa_testing
