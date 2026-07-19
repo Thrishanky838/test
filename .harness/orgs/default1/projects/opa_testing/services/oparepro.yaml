@@ -3,3 +3,22 @@ service:
   identifier: oparepro
   orgIdentifier: default1
   projectIdentifier: opa_testing
+  serviceDefinition:
+    spec:
+      manifests:
+        - manifest:
+            identifier: test
+            type: K8sManifest
+            spec:
+              store:
+                type: Github
+                spec:
+                  connectorRef: account.thrishankadmin
+                  gitFetchType: Branch
+                  paths:
+                    - opa/manifest.yaml
+                  repoName: test
+                  branch: main
+              skipResourceVersioning: false
+              enableDeclarativeRollback: false
+    type: Kubernetes
