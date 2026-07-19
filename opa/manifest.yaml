@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: opa-repro-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: opa-repro-app
+  template:
+    metadata:
+      labels:
+        app: opa-repro-app
+    spec:
+      containers:
+        - name: app
+          image: nginx:1.25
+          ports:
+            - containerPort: 80
