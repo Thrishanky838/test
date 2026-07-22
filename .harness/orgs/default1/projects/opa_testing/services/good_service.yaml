@@ -3,3 +3,6 @@ service:
   identifier: good_service
   orgIdentifier: default1
   projectIdentifier: opa_testing
+  serviceDefinition:
+    spec: {}
+    type: Kubernetes
