@@ -1,0 +1,9 @@
+---
+environment:
+  description: ""
+  tags: {}
+  type: "Production"
+  orgIdentifier: "default1"
+  projectIdentifier: "opa_testing"
+  identifier: "test_env_Clone"
+  name: "test_env - Clone"
