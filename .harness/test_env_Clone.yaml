@@ -6,4 +6,4 @@ environment:
   orgIdentifier: "default1"
   projectIdentifier: "opa_testing"
   identifier: "test_env_Clone"
-  name: "test_env - Clone"
+  name: "bad_env"
