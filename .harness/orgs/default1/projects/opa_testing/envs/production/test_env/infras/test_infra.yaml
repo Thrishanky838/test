@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: test_infra
+  identifier: test_infra
+  orgIdentifier: default1
+  projectIdentifier: opa_testing
+  environmentRef: test_env
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.k8sqa
+    namespace: thrishank-test-infra
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false
