@@ -1,5 +1,5 @@
 infrastructureDefinition:
-  name: good_infra
+  name: good_infra1
   identifier: test_infra
   orgIdentifier: default1
   projectIdentifier: opa_testing
