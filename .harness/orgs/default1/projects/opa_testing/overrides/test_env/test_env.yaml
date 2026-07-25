@@ -1,6 +1,6 @@
 overrides:
   variables:
-    - name: sfdnosfds
-      type: Number
-      value: 1
+    - name: aefeds
+      type: String
+      value: safasdfdsa
       required: false
