@@ -1,5 +1,8 @@
 service:
-  name: bad_service_
+  name: good_service
   identifier: good_service
   orgIdentifier: default
   projectIdentifier: thrishank_test
+  serviceDefinition:
+    spec: {}
+    type: Kubernetes
