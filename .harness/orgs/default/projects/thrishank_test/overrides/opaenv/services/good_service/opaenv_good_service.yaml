@@ -1,6 +1,6 @@
 overrides:
   variables:
     - name: adwdwasd
-      type: String
-      value: asdsadsad
+      type: Number
+      value: 3289432984
       required: false
