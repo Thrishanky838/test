@@ -1,0 +1,6 @@
+environment:
+  name: opa-env
+  identifier: opaenv
+  orgIdentifier: default
+  projectIdentifier: thrishank_test
+  type: Production
