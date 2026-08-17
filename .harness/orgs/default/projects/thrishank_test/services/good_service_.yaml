@@ -1,5 +1,5 @@
 service:
-  name: good_service_
+  name: bad_service_
   identifier: good_service_
   orgIdentifier: default
   projectIdentifier: thrishank_test
