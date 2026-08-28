@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: repro
+  identifier: repro
+  orgIdentifier: default1
+  projectIdentifier: opa_testing
+  environmentRef: test_env
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.k8sqa
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false
